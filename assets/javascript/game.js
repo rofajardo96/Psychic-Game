@@ -27,16 +27,21 @@ document.onkeyup = function(event) {
         losses ++;
         lives -= 1;
         alert("Terrible Choice");
-    }
+
     }
     }
     document.getElementById("wins").textContent = wins;
     document.getElementById("losses").textContent = losses;
     document.getElementById("lives").textContent = lives;
+    }
+    //originally had this outside the function and it wasn't working when deployed 
+    // document.getElementById("wins").textContent = wins;
+    // document.getElementById("losses").textContent = losses;
+    // document.getElementById("lives").textContent = lives;
 
 
 
 
-}
+
 
 
